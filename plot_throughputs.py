@@ -92,4 +92,4 @@ axPlot.set_xlabel("Buffer size (KB)")
 axPlot.set_ylabel("Throughput (Mbps)")
 
 plt.title('Shallow buffered Comparison')
-plt.savefig("Shallow_Buffer.png")
+plt.savefig("Results/Pics/Shallow_Buffer.png")

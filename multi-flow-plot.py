@@ -77,7 +77,7 @@ def main():
     plt.xlabel('Time (s)')
     plt.ylabel('Throughput (Mbps)')
     plt.title('PCC Multi-Flow ')
-    plt.savefig('pccmulti.png')
+    plt.savefig('Results/Pics/pccmulti.png')
     plt.clf()
     fig = plt.figure(figsize=[8, 6])
     plot_cubic_multi_flow(labels)
@@ -85,7 +85,7 @@ def main():
     plt.xlabel('Time (s)')
     plt.title('CUBIC Multi-Flow')
     plt.ylabel('Throughput (Mbps)')
-    plt.savefig('cubicmulti.png')
+    plt.savefig('Results/Pics/cubicmulti.png')
     plt.clf()
     fig = plt.figure(figsize=[8, 6])
     plot_bbr_multi_flow(labels)
@@ -93,7 +93,7 @@ def main():
     plt.xlabel('Time (s)')
     plt.title('BBR Multi-Flow')
     plt.ylabel('Throughput (Mbps)')
-    plt.savefig('bbrmulti.png')
+    plt.savefig('Results/Pics/bbrmulti.png')
 
 
 

@@ -5,7 +5,7 @@ bw_inner=100
 bw_outer=1000
 num_hosts=4
 flow_time=2000
-dir=multi-flow-test
+dir=Results/multi-flow-test
 
 sysctl -w net.ipv4.tcp_congestion_control=cubic
 python multi-flow.py -B $bw_outer -b $bw_inner --offset $offset --num-hosts $num_hosts -d $dir --flow-time $flow_time --algo cubic
