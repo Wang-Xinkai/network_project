@@ -4,4 +4,3 @@ cd ..
 git clone git://github.com/mininet/mininet
 cd mininet
 /util/install.sh -a
-cd cs244_researchpcc
